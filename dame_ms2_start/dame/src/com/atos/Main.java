@@ -13,7 +13,8 @@ import java.util.Scanner;
 public class Main extends Application {
     public static void main(String[] args) {
         launch(args);
-// Hallo Martin, meine Welt!
+// Hallo Martin, meine Welt
+        //Hallo Marc und Lukas
 //        Scanner scanner = new Scanner(System.in);
 //
 //        String fenString = "1p1p1p1p/p1p1p1p1/1p1p1p1p/8/8/P1P1P1P1/1P1P1P1P/P1P1P1P1 w";
