@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.atos.controllers.MainWindowController"
+            prefHeight="600.0" prefWidth="600.0">
+    <children>
+        <MenuBar prefHeight="29.0" prefWidth="600.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <menus>
+                <Menu mnemonicParsing="false" text="Datei">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#newGame" text="Neues Spiel" />
+                        <MenuItem mnemonicParsing="false" onAction="#loadGame" text="Laden" />
+                        <MenuItem mnemonicParsing="false" onAction="#saveGame" text="Speichern" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+        <Label fx:id="playerLabel" layoutX="6.0" layoutY="29.0" prefHeight="29.0" prefWidth="237.0" AnchorPane.leftAnchor="6.0" AnchorPane.topAnchor="29.0" />
+        <StackPane fx:id="boardPane" layoutY="60.0" prefHeight="540.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="60.0" />
+    </children>
+</AnchorPane>
